@@ -6,12 +6,17 @@ def get_first_name_of_season_winner(data, season)
   #   end 
   # end
 
-  hash[season].each do |data|
-    if data["status"] == "Winner"
-      return name.split.first 
+  # hash[season].each do |data|
+  #   if data["status"] == "Winner"
+  #     return name.split.first 
+  #   end
+  # end
+  
+  data[season].each do |acter| 
+    if acter["status"] == "Winner"
+      return acter["name"].split.first
     end
   end
-  
   
     
 end
