@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   # code here
   # for season in hash.keys
-  hash[season][:name]
+  hash[:season][:name]
     
 end
 
