@@ -5,7 +5,8 @@ def get_first_name_of_season_winner(data, season)
   #     hash[:main_key][:name]
   #   end 
   # end
-  season.each do ||
+  season.each do |data|
+    
   
     
 end
