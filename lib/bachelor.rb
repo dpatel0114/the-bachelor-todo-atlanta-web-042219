@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
   # end
 
   data.each do |season|
-    if status == "Winner"
+    if "status" == "Winner"
       return name.split.first 
     end
   end
