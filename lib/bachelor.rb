@@ -23,7 +23,7 @@ end
 def get_contestant_name(data, occupation)
   # code here
   data.each do |occupation|
-    if occupation == "Cruise Ship Singer"
+    if occupation == ocuu
       return actor
 end
 
