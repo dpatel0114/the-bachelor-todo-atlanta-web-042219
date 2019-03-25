@@ -22,9 +22,9 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  data.each do |occupation|
-    if occupation == ocuu
-      return actor
+  data.each do |actor|
+    if actor ["occupation"] == occupation
+      return actor["naem"]
 end
 
 def count_contestants_by_hometown(data, hometown)
