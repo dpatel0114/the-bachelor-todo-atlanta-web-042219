@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
   #     hash[:main_key][:name]
   #   end 
   # end
+  season.to_s = season 
   season.each do |data|
     if status == "Winner"
       return name.split.first 
