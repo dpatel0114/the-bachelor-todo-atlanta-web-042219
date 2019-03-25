@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   # code here
   for main_key in hash.keys
-    if main_key == season 
+    if main_key = season 
       hash[:main_key][:name]
     end 
   end
